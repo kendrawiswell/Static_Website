@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE Menu [
+<!ELEMENT Menu (Beverage+)>
+<!ELEMENT Beverage (Name, Description, Price)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+]>
+<Menu>
+  <Beverage>
+    <Name> Espresso </Name>
+    <Description> A strong black coffee. </Description>
+    <Price> $2.25 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Macchiato </Name>
+    <Description> Espresso topped with an equal amount of steamed milk. </Description>
+    <Price> $3.25 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Latte </Name>
+    <Description> Espresso and steamed milk. </Description>
+    <Price> $4.75 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Americano </Name>
+    <Description> Espresso extracted over hot water. </Description>
+    <Price> $3.75 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Cappuccino </Name>
+    <Description> Espresso and steamed milk. </Description>
+    <Price> $3.50 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Mocha </Name>
+    <Description> Espresso, steamed milk, and chocolate sauce. </Description>
+    <Price> $5.00 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Drip Coffee </Name>
+    <Description> Fresh TrueStone coffee </Description>
+    <Price> $3.75 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Iced Coffee </Name>
+    <Description> Refreshing TrueStone coffee over ice. </Description>
+    <Price> $3.75 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Hot Tea </Name>
+    <Description> Loose leaf tea from TeaSource. </Description>
+    <Price> $3.75 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Iced Tea </Name>
+    <Description> Loose leaf tea from TeaSource. </Description>
+    <Price> $3.75 </Price>
+  </Beverage>
+  <Beverage>
+    <Name> Hot Chocolate </Name>
+    <Description> Dark chocolate (sauce or powder) and steamed milk. </Description>
+    <Price> $4.75 </Price>
+  </Beverage>
+</Menu>
